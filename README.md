@@ -50,7 +50,9 @@ Below is a summary of how I arrived at the final model:
 - Model. P-values all under .05. 
 - Add interactions to boost r squared 
 - __FINAL MODEL__, All p-s stayed under .05. Stopped here.
-<img src='README_images/final_model1.png'><img src='README_images/final_model2.png'><img src='README_images/final_model3.png'>
+<img src='README_images/final_model1.png'>
+<img src='README_images/final_model2.png'>
+<img src='README_images/final_model3.png'>
 <img src='README_images/final_normality.png'>
 
 From here I checked the reamaining 3 assumptions of Linear Regression (Normality checked with each model, histogram of residuals and QQ-plot) 
