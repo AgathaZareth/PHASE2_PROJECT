@@ -76,7 +76,7 @@ The top ways renovations can increase home value:
 - __For every increase in _Grade_ level, the home value will increase by 15.1%__
 - __For every additional _Floor_, home value increases by 5.7%__
 
-Below I have placed reminders of the description of _GRADE_ and _CONDITION_ from [table](#table) at top of this notebook. As well as additional information from the King County [Residential Glossary of Terms](https://info.kingcounty.gov/assessor/esales/Glossary.aspx?type=r#top).
+Below I have placed reminders of the description of _GRADE_ and _CONDITION_ from [table](https://github.com/AgathaZareth/PHASE2_PROJECT/blob/main/README.md#the-data) at top of this notebook. As well as additional information from the King County [Residential Glossary of Terms](https://info.kingcounty.gov/assessor/esales/Glossary.aspx?type=r#top).
 
 
 __GRADE__: _Overall grade of the house. Related to the construction and design of the house. Classification by construction quality which refers to the types of materials used and the quality of workmanship. Buildings of better quality (higher grade) cost more to build per unit of measure and command higher value. (See Glossary in Area Report for Residential Building Grades in use by the King County Department of Assessments.)_  
