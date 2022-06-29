@@ -12,7 +12,7 @@ The regression modeling will yield findings to support relevant recommendations 
     - linearity checks to show the relationship between Sale Price and features used
     - a homoscedasticity check of the final model. 
   
-Finally, there are three feature-specific effects on Sale Price stated in the __Final Recommendations__ sections 
+Finally, there are three feature-specific effects on Sale Price stated in the [Recommendations](https://github.com/AgathaZareth/PHASE2_PROJECT/blob/main/README.md#recommendations) section. 
 
 
 ## Business Problem
@@ -23,7 +23,11 @@ A real estate agency needs to provide advice to homeowners about how home renova
 
 This regression analysis uses the King County House Sales dataset. For more information, other than what is provided below, see the [King County Assessor Website](https://info.kingcounty.gov/assessor/esales/Glossary.aspx?type=r)
 
-<center><img src='README_images/column_description_tabel.png'/></center>
+
+<p align="center">
+<img src='README_images/column_description_tabel.png'>
+    </p>
+
 
 
 ## Methods
