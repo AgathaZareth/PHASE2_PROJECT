@@ -8,9 +8,9 @@ The regression modeling will yield findings to support relevant recommendations 
  - an R squared metric to describe the overall model performance.
  - multicollinearity checks with VIF (Variance Inflation Factor) values 
  - visual modeling to show:
-  - distribution of the model residuals 
-  - linearity checks to show the relationship between Sale Price and features used
-  - a homoscedasticity check of the final model. 
+    - distribution of the model residuals 
+    - linearity checks to show the relationship between Sale Price and features used
+    - a homoscedasticity check of the final model. 
   
 Finally, there are three feature-specific effects on Sale Price stated in the __Final Recommendations__ sections 
 
@@ -23,7 +23,7 @@ A real estate agency needs to provide advice to homeowners about how home renova
 
 This regression analysis uses the King County House Sales dataset. For more information, other than what is provided below, see the [King County Assessor Website](https://info.kingcounty.gov/assessor/esales/Glossary.aspx?type=r)
 
-<center><img src='README_images/column_description_tabel.png'></center>
+<center><img src='README_images/column_description_tabel.png'/></center>
 
 
 ## Methods
@@ -45,9 +45,9 @@ Below is a summary of how I arrived at the final model:
 
 - Model with other features added 
 - Remove features with p-values greater than .05: 
- - ‘season_sold_winter’
- - ‘season_sold_summer’
- - ‘view_fair’
+    - ‘season_sold_winter’
+    - ‘season_sold_summer’
+    - ‘view_fair’
 - Model with 3 said features removed. P-values stayed under .05
 - Check for collinearity, removed 1 feature based on high VIF: ‘sqft_above’
 - Model with VIF feature removed, ‘sqft_above’. P-values stayed under .05.
