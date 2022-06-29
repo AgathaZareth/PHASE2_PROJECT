@@ -1,7 +1,7 @@
 # Linear Regression Modeling of the King County House Sales dataset
 
 
-
+- - -
 ## Overview
 
 The regression modeling will yield findings to support relevant recommendations for ways renovations may increase the estimated value of a home. Those findings include:
@@ -14,11 +14,12 @@ The regression modeling will yield findings to support relevant recommendations 
   
 Finally, there are three feature-specific effects on Sale Price stated in the [Recommendations](https://github.com/AgathaZareth/PHASE2_PROJECT/blob/main/README.md#recommendations) section. 
 
-
+- - -
 ## Business Problem
 
 A real estate agency needs to provide advice to homeowners about how home renovations might increase the estimated value of their homes, and by what amount.
 
+- - -
 ## The Data
 
 This regression analysis uses the King County House Sales dataset. For more information, other than what is provided below, see the [King County Assessor Website](https://info.kingcounty.gov/assessor/esales/Glossary.aspx?type=r)
@@ -29,7 +30,7 @@ This regression analysis uses the King County House Sales dataset. For more info
     </p>
 
 
-
+- - -
 ## Methods
 
 Below is a summary of how I arrived at the final model:
@@ -79,11 +80,14 @@ From here I checked the reamaining 3 assumptions of Linear Regression (Normality
 - Independence: re check to ensure no features have VIF greater than 5
 
 
+- - -
+- - -
 ## Conclusions
 
 The r squared value of .760 tells us this final linear regression model is able to explain 76% of the variability observed in Sale Price. With an identical adjusted r squared we can be confident in the precision and reliability of this model. 
 Additionally, since the prob(f-statistic) is zero, we can also be confident there is evidence that suggests there *__is__* a linear relationship between Sale Price and this set of predictor variables. 
 
+- - -
 ## Recommendations
 
 Renovations should focus on upgrading _Condition_ and _Grade_ of the home. In addition, adding a _floor_ will increase value. 
@@ -102,9 +106,19 @@ __GRADE__: _Overall grade of the house. Related to the construction and design o
 __CONDITION__: _How good the overall condition of the house is. Related to maintenance of house._ 
 
 
- 
+ - - -
 ## Next Steps
 
 - Remove outliers from features, one by one, modeling between each, and try to eliminate the outlying residuals shown in bottom right corner of above image.
 - Split modeling data into urban and rural locations.
+
+- - -
+## Thank you!
+
+__Email:__ cassigroesbeck@gmail.com
+
+__GitHub:__ @AgathaZareth
+
+__LinkedIn:__ linkedin.com/in/cassarra-groesbeck-a64b75229
+
 
