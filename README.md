@@ -22,6 +22,7 @@ A real estate agency needs to provide advice to homeowners about how home renova
 ## The Data
 
 This regression analysis uses the King County House Sales dataset. For more information, other than what is provided below, see the [King County Assessor Website](https://info.kingcounty.gov/assessor/esales/Glossary.aspx?type=r)
+
 <img src='README_images/column_description_tabel.png'>
 
 
@@ -49,9 +50,7 @@ Below is a summary of how I arrived at the final model:
 - Model. P-values all under .05. 
 - Add interactions to boost r squared 
 - __FINAL MODEL__, All p-s stayed under .05. Stopped here.
-<img src='README_images/final_model1.png'>
-<img src='README_images/final_model2.png'>
-<img src='README_images/final_model3.png'>
+<img src='README_images/final_model1.png'><img src='README_images/final_model2.png'><img src='README_images/final_model3.png'>
 <img src='README_images/final_normality.png'>
 
 From here I checked the reamaining 3 assumptions of Linear Regression (Normality checked with each model, histogram of residuals and QQ-plot) 
@@ -76,6 +75,15 @@ The top ways renovations can increase home value:
 - __Improvement in _Condition_ from AVERAGE to VERY GOOD will increase value by 18.0%__
 - __For every increase in _Grade_ level, the home value will increase by 15.1%__
 - __For every additional _Floor_, home value increases by 5.7%__
+
+Below I have placed reminders of the description of _GRADE_ and _CONDITION_ from [table](#table) at top of this notebook. As well as additional information from the King County [Residential Glossary of Terms](https://info.kingcounty.gov/assessor/esales/Glossary.aspx?type=r#top).
+
+
+__GRADE__: _Overall grade of the house. Related to the construction and design of the house. Classification by construction quality which refers to the types of materials used and the quality of workmanship. Buildings of better quality (higher grade) cost more to build per unit of measure and command higher value. (See Glossary in Area Report for Residential Building Grades in use by the King County Department of Assessments.)_  
+       
+__CONDITION__: _How good the overall condition of the house is. Related to maintenance of house._ 
+
+
  
 ## Next Steps
 
