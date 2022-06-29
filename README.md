@@ -23,19 +23,26 @@ A real estate agency needs to provide advice to homeowners about how home renova
 
 This regression analysis uses the King County House Sales dataset. For more information, other than what is provided below, see the [King County Assessor Website](https://info.kingcounty.gov/assessor/esales/Glossary.aspx?type=r)
 
-<img src='README_images/column_description_tabel.png'>
+<center><img src='README_images/column_description_tabel.png'></center>
 
 
 ## Methods
 
 Below is a summary of how I arrived at the final model:
 - Baseline Model with highest correlated feature: ‘sqft_living’
+
 <img src='README_images/baseline_model.png'>
+
 - plot histogram of baseline model residual and a QQ-plot (moving forward, these two plots are a part of function used to model, see below)
+
 <img src='README_images/Baseline_dist_QQ.png'>
+
 - Log transform target: ‘price’. (All models going forward used ‘price_log’ as target variable)
+
 - Model with ‘price_log’ and ‘sqft_living’
+
 <img src='README_images/price_log_initial.png'>
+
 - Model with other features added 
 - Remove features with p-values greater than .05: 
  - ‘season_sold_winter’
@@ -50,6 +57,7 @@ Below is a summary of how I arrived at the final model:
 - Model. P-values all under .05. 
 - Add interactions to boost r squared 
 - __FINAL MODEL__, All p-s stayed under .05. Stopped here.
+
 <img src='README_images/final_model1.png'>
 <img src='README_images/final_model2.png'>
 <img src='README_images/final_model3.png'>
@@ -57,9 +65,13 @@ Below is a summary of how I arrived at the final model:
 
 From here I checked the reamaining 3 assumptions of Linear Regression (Normality checked with each model, histogram of residuals and QQ-plot) 
 - Linearity: scatter plots of continuous features used in final model
+
 <img src='README_images/final_linearity.png'>
+
 - Homoscedasticity: scatter plot of final model residuals
+
 <img src='README_images/final_homo.png'>
+
 - Independence: re check to ensure no features have VIF greater than 5
 
 
