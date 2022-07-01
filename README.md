@@ -77,7 +77,6 @@ Below is a summary of how I arrived at the final model:
 <img src='README_images/final_model1.png'>
 <img src='README_images/final_model2.png'>
 <img src='README_images/final_model3.png'>
-<img src='README_images/final_normality.png'>
 
 ### Assumption Checks of Final Model
 - Normality: histogram of residuals and qq plot
